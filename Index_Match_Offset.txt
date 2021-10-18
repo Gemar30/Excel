@@ -4,10 +4,14 @@ Purpose - Get the position of an array
 = Match (look_up value, look_up_array, [Match_type])
 
 Arguments 
-look_upv_value - The value to match in look_up array.
+look_up_value - The value to match in look_up array.
 look_up_array - A range of cells or an array reference 
-Match_type - 1 = exact or next smallest (default) and look_up_array must be sorted in ascending order.
+Match_type - 1 = exact or next smallest (default) and look_up_array must be sorted in ascending order. largest value <= look_up_value
             0 = exact match and look_up_array does not need to be sorted.
             -1 exact or next largest and look_up_array must be sorted in desc order.
 
-            
+Notes:
+
+- Match is not case sensitive
+- Match returns the N/A error if no match is found
+- In case of duplicated match returns the first match
