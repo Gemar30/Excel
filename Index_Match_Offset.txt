@@ -1,7 +1,7 @@
 Syntax
 Purpose - Get the position of an array
 
-=Match (look_up value, look_up_array, [Match_type])
+= match (look_up value, look_up_array, [Match_type])
 
 Arguments 
 look_up_value - The value to match in look_up array.
@@ -20,8 +20,22 @@ Notes:
 Excel Index Function
 - returns the value at a given position in a range or array.
 
-=Index(array, row_num, col_num)
+= index(array, row_num, col_num)
 
 location = match
 value = Index
+
+Vlook up - Left to right
+Index - right to left / left to right
+
+Offset function - volatile function
+
+=Offset(reference, rows, columns, [height], [width])
+
+-Offset(start in this cell, go up/down a no. of rows, go left/right a no. of columns, height of range, width of range)
+
+negative cols = left 
+negative rows = above
+
+
 
