@@ -37,5 +37,15 @@ Offset function - volatile function
 negative cols = left 
 negative rows = above
 
+few scenarios using Offset
+
+- Get the sum or average of the last 7 transaction
+- return the last value in a columns
+- Look up two values in a table
+- Create dynamic ranges that will be used in a chart
+- Calculate moving averages.
+
+
+
 
 
